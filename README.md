@@ -15,33 +15,25 @@ Full-stack web application for generating high-quality, searchable PDF documents
 
 ### Frontend (Client)
 
-React (Vite)
-
-Custom Cropper Component
-
-Fetch API
+* React (Vite)
+* Custom Cropper Component
+* Fetch API
 
 ### Backend & Database (Server)
 
-Node.js + Express
-
-PostgreSQL
-
-JWT Authentication
+* Node.js + Express
+* PostgreSQL
+* JWT Authentication
 
 ### OCR & Utilities
 
-Azure Read API
+* Azure Read API
+* Google Vision OCR
+* PaddleOCR
+*Tesseract
+* OCRmyPDF
+* pdf-lib
 
-Google Vision OCR
-
-PaddleOCR
-
-Tesseract
-
-OCRmyPDF
-
-pdf-lib
 
 ## 📁 Project Structure
 
@@ -51,6 +43,8 @@ pdf-lib
 ├── uploads/         # Directory for user uploaded images
 ├── out/             # Directory for generated searchable PDFs
 └── keys/            # API credentials and private keys
+
+
 
 
 ## ⚙️ Installation
@@ -65,14 +59,16 @@ git clone git@github.com:yourusername/ocr-app.git
 cd server
 npm install
 
-
 3. **Install Frontend Dependencies:**
 
 cd ../client
 npm install
 
-
 4. **Configure Environment:** Create and configure the necessary environment variables in the server/.env file. (Requires database connection string and OCR API keys).
+
+
+
+   
 
 ## 🚀 Running the Project
 
@@ -80,14 +76,14 @@ npm install
 
 cd server
 npm run dev
-# Backend running on http://localhost:5000
+* Backend running on http://localhost:5000
 
 
 ### 2. Start Frontend (Client)
 
 cd client
 npm run dev
-# Frontend running on http://localhost:5173
+* Frontend running on http://localhost:5173
 
 
 ## Dynamic Crop OCR API Example
