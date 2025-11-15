@@ -1,0 +1,20 @@
+{
+  "image_size": {
+    "width": 822,
+    "height": 1192
+  },
+  "items": [
+    {
+      "idx": 1,
+      "bbox": [
+        0,
+        276,
+        822,
+        701
+      ],
+      "handwritten": false,
+      "text": "CASHIER"
+    }
+  ],
+  "fields": {}
+}
